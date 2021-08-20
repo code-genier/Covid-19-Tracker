@@ -1,4 +1,4 @@
-This app is active on : https://covid-tracker-by-aayush.web.app/
+# This app is active on : https://covid-tracker-by-aayush.web.app/
 
 # Getting Started with Create React App
 
