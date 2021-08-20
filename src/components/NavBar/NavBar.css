@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+.nav-div{
+    font-family: 'Nunito', sans-serif;
+    background: rgba(0, 0, 0);
+    position: sticky;
+    top: 0px; left: 0px;
+    padding: 0.1em 0em 0.1em 1em;
+    font-weight: bold;
+    color: #adfdea;
+}

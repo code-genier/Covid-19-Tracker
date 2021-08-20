@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 14px;
+    height: 5vh;
+    background: #e3e2df;
+    text-align: center;
+    padding: 2em 1em;
+    color: black;
+    font-size: 1.3em;
+}
+.name{
+    font-weight: bold;
+}

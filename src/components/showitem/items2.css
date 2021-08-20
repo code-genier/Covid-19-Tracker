@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+.master{
+    display: grid;
+    grid-template-columns: 78.5% 18%;
+    grid-gap: 2.2em;
+}
+
+.NewsBox{
+    background: rgba(0, 0, 0, 0.568);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    font-weight: lighter;
+}
+p{
+    font-family: 'Kanit', sans-serif;
+}
+.prec{
+    padding: 1em 2em;
+}
+.end{
+    text-align: center;
+}
+@media only screen and (max-width: 1459px) {
+   .master{
+     display: block;
+     margin: 0em;
+   }
+   .NewsBox{
+     margin-top: 20px;
+   }
+   p{
+    padding: 1em 2em;
+   }
+}

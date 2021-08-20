@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Nunito:wght@200&display=swap');
+
+#center{
+    align-items: center;
+}
+#master_div{
+    width: 92%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 1em 1em 1em 1em;
+    box-sizing: border-box;
+}
+.item1{
+    border-radius: 5px;
+    background: #FFDF6C;
+    text-align: center;
+    padding-top: 1em;
+}
+.item2,.item4{
+    border-radius: 5px;
+    background: #9DC88D;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+}
+.item3,.item5{
+    background: #FFDF6C;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+}
+.span0{
+    font-size: 2em;
+    font-weight: bold;
+    color: #3F3F3F;
+}
+.span1{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 174, 0);
+}
+.span2{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+.span3{
+    font-size: 3em;
+    font-weight: bold;
+    color: rgb(22, 211, 5);
+}
+.span4{
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+}
+@media only screen and (max-width: 1321px){
+    .span1,.span2,.span3,.span4{
+        font-size: 2em;
+    }
+    .span0{
+        font-size: 1.5em;
+    }
+    .item1,.item2,.item3,.item4,.item5{
+        padding-top: 2em;
+    }
+}
+@media only screen and (max-width: 765px){
+    .span1,.span2,.span3,.span4{
+        font-size: 1.5em;
+    }
+    .span0{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 600px){
+    .item1{
+        display: none;
+    }
+    #master_div{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 1em;
+    }
+    .span1,.span2,.span3,.span4{
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 439px){
+   #master_div{
+       display: block;
+   }
+   .span1,.span2,.span3,.span4{
+    font-size: 2em;
+}
+.item1,.item2,.item3,.item4,.item5{
+    padding: 0.5em 1em 0.5em 1em;
+    margin-top: 0.5em;
+    width: 100%;
+}
+}

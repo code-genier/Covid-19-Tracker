@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.container_child{
+    margin-top: 0.5%;
+   margin-left: 1em;
+   
+    font-family: 'Rubik', sans-serif;
+    border-radius: 5px;
+    background: #1f2833;
+    padding: 0.6em 2em;
+}
+.state{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.confirmed{
+    color: rgb(22, 139, 223);
+    font-weight: bold;
+}
+.active{
+    color: rgb(241, 227, 18);
+    font-weight: bold;
+}
+.recovered{
+    color: rgb(67, 172, 6);
+    font-weight: bold;
+}
+.death{
+    color: red;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1459px) {
+    .container_child{
+        margin-top: 0.5em;
+        margin-right: 1em;
+    }
+}
