@@ -7,12 +7,12 @@ import Async from 'react-async';
 import './app.css';
 
 const loadUsers = () =>
-fetch("https://disease.sh/v3/covid-19/countries", {
-// 	"method": "GET",
-// 	"headers": {
-// 		"x-rapidapi-key": "914d93d8c3msh22c6ecae9b31dfdp160f86jsn251ebf7fb282",
-// 		"x-rapidapi-host": "corona-virus-world-and-india-data.p.rapidapi.com"
-// 	}
+fetch("https://corona-virus-world-and-india-data.p.rapidapi.com/api_india", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "914d93d8c3msh22c6ecae9b31dfdp160f86jsn251ebf7fb282",
+		"x-rapidapi-host": "corona-virus-world-and-india-data.p.rapidapi.com"
+	}
 })
     .then(res => (res.ok ? res : Promise.reject(res)))
     .then(res => res.json())
